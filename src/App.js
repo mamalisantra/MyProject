@@ -7,6 +7,7 @@ function App() {
       <ExampleContext>
         <Routes />
         {"Obj"}
+        {"Obj2"}
       </ExampleContext>
     </div>
   );
