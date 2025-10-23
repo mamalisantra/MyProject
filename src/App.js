@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <ExampleContext>
         <Routes />
+        {"Obj"}
       </ExampleContext>
     </div>
   );
