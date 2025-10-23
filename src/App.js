@@ -9,6 +9,7 @@ function App() {
         {"Obj"}
         {"Obj2"}
         {"obj3"}
+        {"obj4"}
       </ExampleContext>
     </div>
   );
