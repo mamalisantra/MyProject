@@ -6,10 +6,6 @@ function App() {
     <div className="App">
       <ExampleContext>
         <Routes />
-        {"Obj"}
-        {"Obj2"}
-        {"obj3"}
-        {"obj4"}
       </ExampleContext>
     </div>
   );
