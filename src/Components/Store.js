@@ -4,8 +4,8 @@ import themeReducer from "./themeReducer";
 
 const store = configureStore({
     reducer: {
-        counter: CounterReducer,
         theme: themeReducer,
+        counter: CounterReducer,
     }
 });
 export default store;

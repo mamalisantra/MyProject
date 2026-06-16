@@ -17,7 +17,7 @@ const CounterSlice = () => {
     >
       <h2 className="mb-4">Redux Counter</h2>
       <div className="d-flex align-items-center">
-        <button className="btn btn-success btn-lg me-3" onClick={() => dispatch({ type: "INCREMENT" })} > + </button>
+        <button className="btn btn-success btn-lg me-3" onClick={() => dispatch({ type: "INCREMENT"})} > + </button>
         <h3 style={{ minWidth: "60px", textAlign: "center", margin: "0 15px", color: "#333", fontWeight: "bold", }} > {count} </h3>
         <button className="btn btn-danger btn-lg ms-3" onClick={() => dispatch({ type: "DECREMENT" })} > - </button>
       </div>
