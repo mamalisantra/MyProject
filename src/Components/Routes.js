@@ -17,6 +17,10 @@ import CallBack from "./AsynchronousJavaScript/CallBack";
 import AxiosConcept from "./AxiosConcept/AxiosConcept";
 import PromiseConceptThenCatch from "./AsynchronousJavaScript/PromiseConceptThenCatch";
 import PromiseConceptAsyncAwait from "./AsynchronousJavaScript/PromiseConceptAsyncAwait";
+import TryAndCatch from "./ErrorHandlingConcept/TryAndCatch";
+import BrowserLocalStorage from "./BrowserStorage/BrowserLocalStorage";
+import BrowserSessionStorage from "./BrowserStorage/BrowserSessionStorage";
+import BrowserCookies from "./BrowserStorage/BrowserCookies";
 
 export default function AppRoutes() {
     return (
@@ -55,7 +59,7 @@ export default function AppRoutes() {
                 {/* **********DOM Concept********** */}
                 <Route path="/DOMConcept" element={<DOMConcept />} />
 
-                {/* ***********Asynchronous ************** */}
+                {/* ***********Asynchronous Conceprt************** */}
                 <Route path="/CallBack" element={<CallBack />} />
                 <Route path="/PromiseConceptThenCatch" element={<PromiseConceptThenCatch />} />
                 <Route path="/PromiseConceptAsyncAwait" element={<PromiseConceptAsyncAwait />} />
@@ -63,6 +67,14 @@ export default function AppRoutes() {
 
                 {/* *********** Axios Concept ******** */}
                 <Route path="/AxiosConcept" element={<AxiosConcept />} />
+
+                {/* ***************Error Handling Concept********* */}
+                <Route path="/TryAndCatch" element={<TryAndCatch />} />
+
+                {/* **************** Browser Storage************* */}
+                <Route path="/BrowserLocalStorage" element={<BrowserLocalStorage />} />
+                <Route path="/BrowserSessionStorage" element={<BrowserSessionStorage />} />
+                <Route path="/BrowserCookies" element={<BrowserCookies />} />
 
             </Routes>
         </BrowserRouter>

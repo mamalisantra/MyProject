@@ -23,6 +23,14 @@ import React, { useEffect } from 'react'
 
 // useEffect =We use it when we want to perform some work after React has rendered the component.(First show/update the UI, then do this extra work.)
 
+//Browsers have default behaviours. For example, submitting a form normally reloads or navigates the page.
+//event.preventDefault() prevents the browser's default action. It does not automatically stop event bubbling.
+
+// .trim() is used to remove extra spaces from the beginning and end of a string. It does not remove spaces between words.
+
+//keydown---when a key is pressed
+//keyup-----when a key is released
+
 const DOMConcept = () => {
 
     useEffect(() => {
@@ -63,7 +71,7 @@ const DOMConcept = () => {
 
         let count = 0;
         let btnEle = document.getElementById('increment_btn')
-        btnEle.addEventListener('click', function () {
+        btnEle.addEventListener('keydown', function () {
             count = count + 1;
             document.getElementById('count_text').textContent=count
         })
