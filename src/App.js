@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <ExampleContext>
         <Routes />
-        {/* I am from local */}
+        {/* I am from local ----- first msg */}
+          {/* I am from local ---second msg*/}
       </ExampleContext>
     </div>
   );
